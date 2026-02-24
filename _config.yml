@@ -1,8 +1,8 @@
-title: DevDesk Theme for Jekyll
-description: A polished, responsive knowledge-base and blog template powered by Jekyll.
-hero_subheading: Publish product docs, guides, and updates with a clean support-style UI.
+title: Blog
+description: A Blog documenting the development progress of Cantinas.pt.
+hero_subheading:
 baseurl: ""
-url: ""
+url: "https://blog.cantinas.pt"
 lang: en
 timezone: UTC
 markdown: kramdown
@@ -21,10 +21,10 @@ home_posts_limit: 4
 nav_links:
   - label: Home
     url: /
-  - label: Documentation
-    url: /#articles
+  - label: Cantinas.pt
+    url: https://cantinas.pt
   - label: GitHub
-    url: https://github.com/username/repository
+    url: https://github.com/joaonunovalente/cantinas
 
 defaults:
   - scope:

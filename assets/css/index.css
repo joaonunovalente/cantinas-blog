@@ -40,10 +40,13 @@
     flex-direction: column;
   }
 
-  .homepage-post-image-holder,
+  .homepage-post-image-holder {
+    width: 100%;
+    max-width: 320px;   /* controla o tamanho */
+    margin: 0 auto 16px auto; /* centraliza */
+  }
+
   .homepage-post-content {
     width: 100%;
-    max-width: none;
-    min-width: 0;
   }
 }
